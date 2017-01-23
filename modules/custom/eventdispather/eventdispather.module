@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Contains eventdispather.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function eventdispather_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the eventdispather module.
+    case 'help.page.eventdispather':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function eventdispather_theme()
+{    
+    $theme['hello2_page'] = [
+        'template'=> 'hello',
+        'variables'=>['name'=> 'hello']
+       
+    ];
+    
+       $theme['hello3_page'] = [
+        'template'=> 'tpl2',
+        'variables'=>['name'=> 'hello']
+       
+    ];
+ 
+    return $theme;
+}
+
+
+
+

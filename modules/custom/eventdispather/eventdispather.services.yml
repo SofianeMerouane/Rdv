@@ -1,0 +1,27 @@
+services:
+  eventdispather.contact:
+    class: Drupal\eventdispather\EventSubscriber\EventContact
+    arguments: []
+    tags:
+      - { name: event_subscriber }
+
+  eventdispather.default:
+    class: Drupal\eventdispather\EventSubscriber\DefaultSubscriber
+    arguments: ["@plugin.manager.mail","@logger.factory"]
+    tags:
+      - { name: event_subscriber }
+ 
+  
+
+  eventbaniere:
+    class: Drupal\eventdispather\EventSubscriber\EventBaniere
+    arguments: [2017,01,30]
+    tags:
+      - { name: event_subscriber }
+
+  eventdispather.loaddata:
+    class: Drupal\eventdispather\Command\LoadDataCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+

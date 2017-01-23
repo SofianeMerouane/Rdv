@@ -1,0 +1,10 @@
+entity.stages.add_form:
+  route_name: entity.stages.add_form
+  title: 'Add Stages'
+  appears_on:
+    - entity.stages.collection
+entity.students.add_form:
+  route_name: entity.students.add_form
+  title: 'Add Students'
+  appears_on:
+    - entity.students.collection

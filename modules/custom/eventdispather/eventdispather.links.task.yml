@@ -1,0 +1,54 @@
+# Stages routing definition
+stages.settings_tab:
+  route_name: stages.settings
+  title: 'Settings'
+  base_route: stages.settings
+
+entity.stages.canonical:
+  route_name: entity.stages.canonical
+  base_route: entity.stages.canonical
+  title: 'View'
+
+entity.stages.edit_form:
+  route_name: entity.stages.edit_form
+  base_route: entity.stages.canonical
+  title: 'Edit'
+
+entity.stages.version_history:
+  route_name: entity.stages.version_history
+  base_route: entity.stages.canonical
+  title: 'Revisions'
+
+entity.stages.delete_form:
+  route_name:  entity.stages.delete_form
+  base_route:  entity.stages.canonical
+  title: Delete
+  weight: 10
+
+# Students routing definition
+students.settings_tab:
+  route_name: students.settings
+  title: 'Settings'
+  base_route: students.settings
+
+entity.students.canonical:
+  route_name: entity.students.canonical
+  base_route: entity.students.canonical
+  title: 'View'
+
+entity.students.edit_form:
+  route_name: entity.students.edit_form
+  base_route: entity.students.canonical
+  title: 'Edit'
+
+entity.students.version_history:
+  route_name: entity.students.version_history
+  base_route: entity.students.canonical
+  title: 'Revisions'
+
+entity.students.delete_form:
+  route_name:  entity.students.delete_form
+  base_route:  entity.students.canonical
+  title: Delete
+  weight: 10
+

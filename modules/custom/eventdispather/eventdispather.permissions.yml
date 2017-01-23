@@ -1,0 +1,66 @@
+add stages entities:
+  title: 'Create new Stages entities'
+
+administer stages entities:
+  title: 'Administer Stages entities'
+  description: 'Allow to access the administration form to configure Stages entities.'
+  restrict access: true
+
+delete stages entities:
+  title: 'Delete Stages entities'
+
+edit stages entities:
+  title: 'Edit Stages entities'
+
+access stages overview:
+  title: 'Access the Stages overview page'
+
+view published stages entities:
+  title: 'View published Stages entities'
+
+view unpublished stages entities:
+  title: 'View unpublished Stages entities'
+
+view all stages revisions:
+  title: 'View all Stages revisions'
+
+revert all stages revisions:
+  title: 'Revert all Stages revisions'
+  description: 'Role requires permission <em>view Stages revisions</em> and <em>edit rights</em> for stages entities in question or <em>administer stages entities</em>.'
+
+delete all stages revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Stages revisions</em> and <em>delete rights</em> for stages entities in question or <em>administer stages entities</em>.'
+add students entities:
+  title: 'Create new Students entities'
+
+administer students entities:
+  title: 'Administer Students entities'
+  description: 'Allow to access the administration form to configure Students entities.'
+  restrict access: true
+
+delete students entities:
+  title: 'Delete Students entities'
+
+edit students entities:
+  title: 'Edit Students entities'
+
+access students overview:
+  title: 'Access the Students overview page'
+
+view published students entities:
+  title: 'View published Students entities'
+
+view unpublished students entities:
+  title: 'View unpublished Students entities'
+
+view all students revisions:
+  title: 'View all Students revisions'
+
+revert all students revisions:
+  title: 'Revert all Students revisions'
+  description: 'Role requires permission <em>view Students revisions</em> and <em>edit rights</em> for students entities in question or <em>administer students entities</em>.'
+
+delete all students revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Students revisions</em> and <em>delete rights</em> for students entities in question or <em>administer students entities</em>.'

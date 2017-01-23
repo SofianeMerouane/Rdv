@@ -1,0 +1,35 @@
+
+eventdispather.default_controller_hello:
+  path: '/eventdispather/hello/{name}'
+  defaults:
+    _controller: '\Drupal\eventdispather\Controller\DefaultController::hello'
+    _title: 'hello'
+  requirements:
+    _permission: 'access content'
+
+eventdispather.default_controller_hello1:
+  path: '/eventdispather/hello1/{name}'
+  defaults:
+    _controller: '\Drupal\eventdispather\Controller\DefaultController::hello1'
+    _title: 'hello1'
+  requirements:
+    _permission: 'access content'
+
+
+eventdispather.default_form:
+  path: '/eventdispather/form/default'
+  defaults:
+    _form: '\Drupal\eventdispather\Form\DefaultForm'
+    _title: 'DefaultForm test '
+  requirements:
+    _access: 'TRUE'
+  
+
+eventdispather.add_information_form:
+  path: '/eventdispather/form/add_information'
+  defaults:
+    _form: '\Drupal\eventdispather\Form\addInformationForm'
+    _title: 'addInformationForm'
+  requirements:
+    _access: 'TRUE'
+  

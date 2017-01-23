@@ -1,0 +1,29 @@
+
+
+# Stages menu items definition
+entity.stages.collection:
+  title: 'Stages list'
+  route_name: entity.stages.collection
+  description: 'List Stages entities'
+  parent: system.admin_structure
+  weight: 100
+
+stages.admin.structure.settings:
+  title: Stages settings
+  description: 'Configure Stages entities'
+  route_name: stages.settings
+  parent: system.admin_structure
+
+# Students menu items definition
+entity.students.collection:
+  title: 'Students list'
+  route_name: entity.students.collection
+  description: 'List Students entities'
+  parent: system.admin_structure
+  weight: 100
+
+students.admin.structure.settings:
+  title: Students settings
+  description: 'Configure Students entities'
+  route_name: students.settings
+  parent: system.admin_structure

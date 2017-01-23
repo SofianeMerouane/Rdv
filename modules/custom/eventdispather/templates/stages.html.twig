@@ -1,0 +1,22 @@
+{#
+/**
+ * @file stages.html.twig
+ * Default theme implementation to present Stages data.
+ *
+ * This template is used when viewing Stages pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_stages()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('stages') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>
