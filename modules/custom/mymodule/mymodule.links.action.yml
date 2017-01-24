@@ -1,0 +1,10 @@
+entity.customer.add_form:
+  route_name: entity.customer.add_form
+  title: 'Add Customer'
+  appears_on:
+    - entity.customer.collection
+entity.oreder.add_form:
+  route_name: entity.oreder.add_form
+  title: 'Add Oreder'
+  appears_on:
+    - entity.oreder.collection

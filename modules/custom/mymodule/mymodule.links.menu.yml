@@ -1,0 +1,28 @@
+
+# Customer menu items definition
+entity.customer.collection:
+  title: 'Customer list'
+  route_name: entity.customer.collection
+  description: 'List Customer entities'
+  parent: system.admin_structure
+  weight: 100
+
+customer.admin.structure.settings:
+  title: Customer settings
+  description: 'Configure Customer entities'
+  route_name: customer.settings
+  parent: system.admin_structure
+
+# Oreder menu items definition
+entity.oreder.collection:
+  title: 'Oreder list'
+  route_name: entity.oreder.collection
+  description: 'List Oreder entities'
+  parent: system.admin_structure
+  weight: 100
+
+oreder.admin.structure.settings:
+  title: Oreder settings
+  description: 'Configure Oreder entities'
+  route_name: oreder.settings
+  parent: system.admin_structure

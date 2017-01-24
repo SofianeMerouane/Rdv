@@ -1,0 +1,40 @@
+
+mymodule.c_r_u_dentity_hello:
+  path: '/mymodule/hello/{name}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\CRUDentity::hello'
+    _title: 'hello'
+  requirements:
+    _permission: 'access content'
+
+mymodule.c_r_u_dentity_add:
+  path: '/mymodule/customer/add/{id}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\CRUDentity::addCustomer'
+    _title: 'add customer'
+  requirements:
+    _permission: 'access content'
+
+mymodule.c_r_u_dentity_show:
+  path: '/mymodule/customer/show'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\CRUDentity::showCustomer'
+    _title: 'show customer'
+  requirements:
+    _permission: 'access content'
+
+mymodule.c_r_u_dentity_edit:
+  path: '/mymodule/customer/edit/{id}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\CRUDentity::editCustomer'
+    _title: 'edit customer'
+  requirements:
+    _permission: 'access content'
+
+mymodule.c_r_u_dentity_delete:
+  path: '/mymodule/customer/delete/{id}'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\CRUDentity::deleteCustomer'
+    _title: 'delete customer'
+  requirements:
+    _permission: 'access content'

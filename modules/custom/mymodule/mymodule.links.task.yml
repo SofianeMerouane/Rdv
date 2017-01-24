@@ -1,0 +1,54 @@
+# Customer routing definition
+customer.settings_tab:
+  route_name: customer.settings
+  title: 'Settings'
+  base_route: customer.settings
+
+entity.customer.canonical:
+  route_name: entity.customer.canonical
+  base_route: entity.customer.canonical
+  title: 'View'
+
+entity.customer.edit_form:
+  route_name: entity.customer.edit_form
+  base_route: entity.customer.canonical
+  title: 'Edit'
+
+entity.customer.version_history:
+  route_name: entity.customer.version_history
+  base_route: entity.customer.canonical
+  title: 'Revisions'
+
+entity.customer.delete_form:
+  route_name:  entity.customer.delete_form
+  base_route:  entity.customer.canonical
+  title: Delete
+  weight: 10
+
+# Oreder routing definition
+oreder.settings_tab:
+  route_name: oreder.settings
+  title: 'Settings'
+  base_route: oreder.settings
+
+entity.oreder.canonical:
+  route_name: entity.oreder.canonical
+  base_route: entity.oreder.canonical
+  title: 'View'
+
+entity.oreder.edit_form:
+  route_name: entity.oreder.edit_form
+  base_route: entity.oreder.canonical
+  title: 'Edit'
+
+entity.oreder.version_history:
+  route_name: entity.oreder.version_history
+  base_route: entity.oreder.canonical
+  title: 'Revisions'
+
+entity.oreder.delete_form:
+  route_name:  entity.oreder.delete_form
+  base_route:  entity.oreder.canonical
+  title: Delete
+  weight: 10
+

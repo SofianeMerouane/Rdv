@@ -1,0 +1,66 @@
+add customer entities:
+  title: 'Create new Customer entities'
+
+administer customer entities:
+  title: 'Administer Customer entities'
+  description: 'Allow to access the administration form to configure Customer entities.'
+  restrict access: true
+
+delete customer entities:
+  title: 'Delete Customer entities'
+
+edit customer entities:
+  title: 'Edit Customer entities'
+
+access customer overview:
+  title: 'Access the Customer overview page'
+
+view published customer entities:
+  title: 'View published Customer entities'
+
+view unpublished customer entities:
+  title: 'View unpublished Customer entities'
+
+view all customer revisions:
+  title: 'View all Customer revisions'
+
+revert all customer revisions:
+  title: 'Revert all Customer revisions'
+  description: 'Role requires permission <em>view Customer revisions</em> and <em>edit rights</em> for customer entities in question or <em>administer customer entities</em>.'
+
+delete all customer revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Customer revisions</em> and <em>delete rights</em> for customer entities in question or <em>administer customer entities</em>.'
+add oreder entities:
+  title: 'Create new Oreder entities'
+
+administer oreder entities:
+  title: 'Administer Oreder entities'
+  description: 'Allow to access the administration form to configure Oreder entities.'
+  restrict access: true
+
+delete oreder entities:
+  title: 'Delete Oreder entities'
+
+edit oreder entities:
+  title: 'Edit Oreder entities'
+
+access oreder overview:
+  title: 'Access the Oreder overview page'
+
+view published oreder entities:
+  title: 'View published Oreder entities'
+
+view unpublished oreder entities:
+  title: 'View unpublished Oreder entities'
+
+view all oreder revisions:
+  title: 'View all Oreder revisions'
+
+revert all oreder revisions:
+  title: 'Revert all Oreder revisions'
+  description: 'Role requires permission <em>view Oreder revisions</em> and <em>edit rights</em> for oreder entities in question or <em>administer oreder entities</em>.'
+
+delete all oreder revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Oreder revisions</em> and <em>delete rights</em> for oreder entities in question or <em>administer oreder entities</em>.'
