@@ -1,0 +1,81 @@
+# Medecins routing definition
+medecins.settings_tab:
+  route_name: medecins.settings
+  title: 'Settings'
+  base_route: medecins.settings
+
+entity.medecins.canonical:
+  route_name: entity.medecins.canonical
+  base_route: entity.medecins.canonical
+  title: 'View'
+
+entity.medecins.edit_form:
+  route_name: entity.medecins.edit_form
+  base_route: entity.medecins.canonical
+  title: 'Edit'
+
+entity.medecins.version_history:
+  route_name: entity.medecins.version_history
+  base_route: entity.medecins.canonical
+  title: 'Revisions'
+
+entity.medecins.delete_form:
+  route_name:  entity.medecins.delete_form
+  base_route:  entity.medecins.canonical
+  title: Delete
+  weight: 10
+
+# Patients routing definition
+patients.settings_tab:
+  route_name: patients.settings
+  title: 'Settings'
+  base_route: patients.settings
+
+entity.patients.canonical:
+  route_name: entity.patients.canonical
+  base_route: entity.patients.canonical
+  title: 'View'
+
+entity.patients.edit_form:
+  route_name: entity.patients.edit_form
+  base_route: entity.patients.canonical
+  title: 'Edit'
+
+entity.patients.version_history:
+  route_name: entity.patients.version_history
+  base_route: entity.patients.canonical
+  title: 'Revisions'
+
+entity.patients.delete_form:
+  route_name:  entity.patients.delete_form
+  base_route:  entity.patients.canonical
+  title: Delete
+  weight: 10
+
+# Villes routing definition
+villes.settings_tab:
+  route_name: villes.settings
+  title: 'Settings'
+  base_route: villes.settings
+
+entity.villes.canonical:
+  route_name: entity.villes.canonical
+  base_route: entity.villes.canonical
+  title: 'View'
+
+entity.villes.edit_form:
+  route_name: entity.villes.edit_form
+  base_route: entity.villes.canonical
+  title: 'Edit'
+
+entity.villes.version_history:
+  route_name: entity.villes.version_history
+  base_route: entity.villes.canonical
+  title: 'Revisions'
+
+entity.villes.delete_form:
+  route_name:  entity.villes.delete_form
+  base_route:  entity.villes.canonical
+  title: Delete
+  weight: 10
+

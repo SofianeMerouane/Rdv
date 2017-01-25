@@ -1,0 +1,28 @@
+
+myrdvdoctor.rdv_doctor:
+  path: '/myrdvdoctor/form/rdv_doctor'
+  defaults:
+    _form: '\Drupal\myrdvdoctor\Form\rdvDoctor'
+    _title: 'rdvDoctor'
+  requirements:
+    _access: 'TRUE'
+  
+
+myrdvdoctor.default_controller_hello:
+  path: '/myrdvdoctor/hello/{name}'
+  defaults:
+    _controller: '\Drupal\myrdvdoctor\Controller\DefaultController::hello'
+    _title: 'name'
+  requirements:
+    _permission: 'access content'
+
+myrdvdoctor.default_controller_ville_autocomplite:
+  path: '/myrdvdoctor/ville'
+  defaults:
+    _controller: '\Drupal\myrdvdoctor\Controller\DefaultController::villeAutocomplite'
+    _title: 'ville_autocomplite'
+  requirements:
+    _permission: 'access content'
+
+
+    

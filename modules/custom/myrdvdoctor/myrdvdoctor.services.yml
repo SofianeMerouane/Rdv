@@ -1,0 +1,22 @@
+services:
+  myrdvdoctor.loaddatadoctorville:
+    class: Drupal\myrdvdoctor\Command\DefaultCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+      
+      
+ 
+  myrdvdoctor.myrdvdoctor_default:
+    class: Drupal\myrdvdoctor\Command\DiCommand
+    arguments: ['@logger.factory']
+    tags:
+      - { name: drupal.command }
+
+
+  myrdvdoctor.debuug:
+    class: Drupal\myrdvdoctor\Command\DefaultCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+

@@ -1,0 +1,99 @@
+add medecins entities:
+  title: 'Create new Medecins entities'
+
+administer medecins entities:
+  title: 'Administer Medecins entities'
+  description: 'Allow to access the administration form to configure Medecins entities.'
+  restrict access: true
+
+delete medecins entities:
+  title: 'Delete Medecins entities'
+
+edit medecins entities:
+  title: 'Edit Medecins entities'
+
+access medecins overview:
+  title: 'Access the Medecins overview page'
+
+view published medecins entities:
+  title: 'View published Medecins entities'
+
+view unpublished medecins entities:
+  title: 'View unpublished Medecins entities'
+
+view all medecins revisions:
+  title: 'View all Medecins revisions'
+
+revert all medecins revisions:
+  title: 'Revert all Medecins revisions'
+  description: 'Role requires permission <em>view Medecins revisions</em> and <em>edit rights</em> for medecins entities in question or <em>administer medecins entities</em>.'
+
+delete all medecins revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Medecins revisions</em> and <em>delete rights</em> for medecins entities in question or <em>administer medecins entities</em>.'
+add patients entities:
+  title: 'Create new Patients entities'
+
+administer patients entities:
+  title: 'Administer Patients entities'
+  description: 'Allow to access the administration form to configure Patients entities.'
+  restrict access: true
+
+delete patients entities:
+  title: 'Delete Patients entities'
+
+edit patients entities:
+  title: 'Edit Patients entities'
+
+access patients overview:
+  title: 'Access the Patients overview page'
+
+view published patients entities:
+  title: 'View published Patients entities'
+
+view unpublished patients entities:
+  title: 'View unpublished Patients entities'
+
+view all patients revisions:
+  title: 'View all Patients revisions'
+
+revert all patients revisions:
+  title: 'Revert all Patients revisions'
+  description: 'Role requires permission <em>view Patients revisions</em> and <em>edit rights</em> for patients entities in question or <em>administer patients entities</em>.'
+
+delete all patients revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Patients revisions</em> and <em>delete rights</em> for patients entities in question or <em>administer patients entities</em>.'
+add villes entities:
+  title: 'Create new Villes entities'
+
+administer villes entities:
+  title: 'Administer Villes entities'
+  description: 'Allow to access the administration form to configure Villes entities.'
+  restrict access: true
+
+delete villes entities:
+  title: 'Delete Villes entities'
+
+edit villes entities:
+  title: 'Edit Villes entities'
+
+access villes overview:
+  title: 'Access the Villes overview page'
+
+view published villes entities:
+  title: 'View published Villes entities'
+
+view unpublished villes entities:
+  title: 'View unpublished Villes entities'
+
+view all villes revisions:
+  title: 'View all Villes revisions'
+
+revert all villes revisions:
+  title: 'Revert all Villes revisions'
+  description: 'Role requires permission <em>view Villes revisions</em> and <em>edit rights</em> for villes entities in question or <em>administer villes entities</em>.'
+
+delete all villes revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Villes revisions</em> and <em>delete rights</em> for villes entities in question or <em>administer villes entities</em>.'

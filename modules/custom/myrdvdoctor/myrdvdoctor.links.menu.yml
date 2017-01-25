@@ -1,0 +1,42 @@
+
+# Medecins menu items definition
+entity.medecins.collection:
+  title: 'Medecins list'
+  route_name: entity.medecins.collection
+  description: 'List Medecins entities'
+  parent: system.admin_structure
+  weight: 100
+
+medecins.admin.structure.settings:
+  title: Medecins settings
+  description: 'Configure Medecins entities'
+  route_name: medecins.settings
+  parent: system.admin_structure
+
+# Patients menu items definition
+entity.patients.collection:
+  title: 'Patients list'
+  route_name: entity.patients.collection
+  description: 'List Patients entities'
+  parent: system.admin_structure
+  weight: 100
+
+patients.admin.structure.settings:
+  title: Patients settings
+  description: 'Configure Patients entities'
+  route_name: patients.settings
+  parent: system.admin_structure
+
+# Villes menu items definition
+entity.villes.collection:
+  title: 'Villes list'
+  route_name: entity.villes.collection
+  description: 'List Villes entities'
+  parent: system.admin_structure
+  weight: 100
+
+villes.admin.structure.settings:
+  title: Villes settings
+  description: 'Configure Villes entities'
+  route_name: villes.settings
+  parent: system.admin_structure

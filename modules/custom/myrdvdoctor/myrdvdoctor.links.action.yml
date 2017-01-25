@@ -1,0 +1,15 @@
+entity.medecins.add_form:
+  route_name: entity.medecins.add_form
+  title: 'Add Medecins'
+  appears_on:
+    - entity.medecins.collection
+entity.patients.add_form:
+  route_name: entity.patients.add_form
+  title: 'Add Patients'
+  appears_on:
+    - entity.patients.collection
+entity.villes.add_form:
+  route_name: entity.villes.add_form
+  title: 'Add Villes'
+  appears_on:
+    - entity.villes.collection
